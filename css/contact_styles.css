@@ -1,0 +1,29 @@
+* { box-sizing: border-box; }
+.body {
+  background-image: url("../img/Grass-Blur.jpg");
+  background-size: cover;
+  color: #34495e;
+  padding: 20px;
+}
+.jumbotron {
+  background-size: cover;
+  align: left;
+}
+
+.container {
+  text-align: center
+}
+
+.contact {
+  float: left;
+  background-color: #F2C58C;
+  padding: 20px:
+}
+
+/*Typography*/
+
+h1
+h2
+h3 {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+}

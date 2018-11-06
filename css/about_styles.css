@@ -1,9 +1,9 @@
 * { box-sizing: border-box; }
 
-h1
-h2
-h3 {
-  font-family: Verdana, Helvetica, Arial, sans-serif;
+.body {
+  background-color: #fffeea;
+  color: #34495e;
+  padding: 20px;
 }
 
 .container {
@@ -21,15 +21,44 @@ h3 {
 }
 
 .column {
-  width: 33.33333333333333%;
   display: inline-block;
-  padding-right: 20px;
   float: left;
   height: 80%;
+  width: 33.33333333333333%;
+  padding-right: 20px;
 }
 
-
 .main-text {
-  padding-top: 60px;
+  padding: 60px 20px;
   clear: both;
+
+}
+
+.intro p {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: 3m;
+  font-weight: 300;
+  webkit-margin-before: 1em
+}
+
+.skill h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.skill {
+  background-color: #5AD4C2;
+  color: #FFF;
+}
+
+#skill-list {
+  margin-left: 50px;
+}
+
+/*Typography*/
+
+h1
+h2
+h3 {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
 }
