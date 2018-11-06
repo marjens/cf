@@ -14,16 +14,32 @@
   text-align: center
 }
 
-.contact {
+.contact-box {
   float: left;
-  background-color: #F2C58C;
-  padding: 20px:
+  border-spacing: 10px;
+  background-color: #c29766;
+  padding: 0px 20px 20px 40px;
+}
+
+.contact-box p {
+  padding: 0px 10px 10px 0px;
+}
+
+.connect {
+  padding-top: 10px
 }
 
 /*Typography*/
 
-h1
-h2
+h1 {
+  font-family: Verdana, Arial, sans-serif;
+}
+h2 {
+  font-family: Verdana, Arial, sans-serif;
+}
 h3 {
-  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-family: Verdana, Arial, sans-serif;
+}
+p {
+  font-family: Verdana, Arial, sans-serif;
 }

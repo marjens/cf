@@ -1,8 +1,9 @@
 * { box-sizing: border-box; }
 
 .body {
-  background-color: #fffeea;
-  color: #34495e;
+  background-image: url("../img/bark.jpg");
+  background-size: cover;
+  color: #f0f8c7;
   padding: 20px;
 }
 
@@ -29,9 +30,13 @@
 }
 
 .main-text {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
   padding: 60px 20px;
   clear: both;
+}
 
+.main-text h2 {
+  text-transform: uppercase;
 }
 
 .intro p {
@@ -41,14 +46,18 @@
   webkit-margin-before: 1em
 }
 
+.intro h2 {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+
 .skill h2 {
   text-align: center;
   text-transform: uppercase;
 }
 
 .skill {
-  background-color: #5AD4C2;
-  color: #FFF;
+
 }
 
 #skill-list {
@@ -57,8 +66,15 @@
 
 /*Typography*/
 
-h1
-h2
+h1 {
+  font-family: Verdana, Arial, sans-serif;
+}
+h2 {
+  font-family: Verdana, Arial, sans-serif;
+}
 h3 {
-  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-family: Verdana, Arial, sans-serif;
+}
+p {
+  font-family: Verdana, Arial, sans-serif;
 }
