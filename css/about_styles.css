@@ -1,7 +1,7 @@
 * { box-sizing: border-box; }
 
 .body {
-  background-image: url("../img/bark.jpg");
+  background-image: url("../img/grass.jpeg");
   background-size: cover;
   color: #f0f8c7;
   padding: 20px;
@@ -29,15 +29,6 @@
   padding-right: 20px;
 }
 
-.main-text {
-  font-family: Verdana, Helvetica, Arial, sans-serif;
-  padding: 60px 20px;
-  clear: both;
-}
-
-.main-text h2 {
-  text-transform: uppercase;
-}
 
 .intro p {
   font-family: Verdana, Helvetica, Arial, sans-serif;
@@ -62,6 +53,15 @@
 
 #skill-list {
   margin-left: 50px;
+}
+
+.main-text {
+  background-color: 272703;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+.main-text h2 {
+  text-transform: uppercase;
 }
 
 /*Typography*/
