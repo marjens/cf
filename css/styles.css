@@ -55,11 +55,23 @@ nav a:hover {
   float: left;
   border-spacing: 10px;
   background-color: #c29766;
-  padding: 0px 20px 20px 40px;
+  padding: 10px 20px 20px 40px;
 }
 
 .contact-box p {
   padding: 0px 10px 10px 0px;
+  color: black;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+.contact-box a {
+  color: black;
+  text-decoration: none;
+  transition: color 600ms;
+}
+
+.contact-box a:hover {
+  color: #ff0;
 }
 
 .connect {

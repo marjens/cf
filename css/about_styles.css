@@ -2,12 +2,6 @@
 
 /** NAV **/
 
-.container {
-  margin: 0 auto;
-  padding: 20px;
-  width: 80%;
-}
-
 .left {
   float: left;
 }
