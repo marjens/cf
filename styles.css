@@ -1,3 +1,86 @@
+* { box-sizing: border-box; }
+
+/** NAV **/
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+nav {
+  position: fixed;
+  width: 100% !important;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  padding: 10px 25px 15px 25px;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  transition: color 600ms;
+}
+
+nav a:hover {
+  color: #ff0;
+}
+
+/** CONTENT **/
+
+.header-content {
+  padding-top: 20px;
+  margin: 0 auto;
+  width: 90%;
+  padding-top: 30px
+}
+.body {
+  background-image: url("../img/Grass-Blur.jpg");
+  background-size: cover;
+  color: #34495e;
+  padding: 20px;
+}
+
+.header h1 {
+  text-align: left;
+  margin-bottom: 40px;
+  color: #214e10;
+}
+
+.contact-box {
+  float: left;
+  border-spacing: 10px;
+  background-color: #c29766;
+  padding: 0px 20px 20px 40px;
+}
+
+.contact-box p {
+  padding: 0px 10px 10px 0px;
+}
+
+.connect {
+  padding-top: 10px
+}
+
+/*Typography*/
+
+h1 {
+  font-family: Verdana, Arial, sans-serif;
+}
+h2 {
+  font-family: Verdana, Arial, sans-serif;
+}
+h3 {
+  font-family: Verdana, Arial, sans-serif;
+}
+p {
+  font-family: Verdana, Arial, sans-serif;
+}
+
 .jumbotron {
   background-image: url("../img/landscape.jpg");
   background-size: cover;
