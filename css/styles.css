@@ -38,17 +38,34 @@ nav a:hover {
   width: 90%;
   padding-top: 30px
 }
-.body {
-  background-image: url("../img/white-brick.jpg");
-  background-size: cover;
-  color: #34495e;
-  padding: 20px;
-}
+
 
 .header h1 {
   text-align: left;
   margin-bottom: 40px;
   color: #214e10;
+}
+
+/** INDEX **/
+
+.jumbotron {
+  background-image: url("../img/landscape.jpg");
+  background-size: cover;
+}
+
+.jumbotron p {
+  color: white;
+}
+
+/** ABOUT **/
+
+/** CONTACT **/
+
+.contact-body {
+  background-image: url("../img/Grass-Blur.jpg");
+  background-size: cover;
+  color: #34495e;
+  padding: 20px;
 }
 
 .contact-box {
@@ -78,6 +95,29 @@ nav a:hover {
   padding-top: 10px
 }
 
+/** FAQ **/
+
+
+.faq-body {
+  background-image: url("../img/white-brick.jpg");
+  background-size: cover;
+  color: #34495e;
+  padding: 20px;
+}
+
+.card-header {
+  background-color: #875f53;
+}
+
+.card-header button {
+  color: #34495e;
+}
+
+.card-body {
+  font-size: 18px;
+  background-color: #ffffff;
+}
+
 /*Typography*/
 
 h1 {
@@ -91,13 +131,4 @@ h3 {
 }
 p {
   font-family: Verdana, Arial, sans-serif;
-}
-
-.jumbotron {
-  background-image: url("../img/landscape.jpg");
-  background-size: cover;
-}
-
-.jumbotron p {
-  color: white;
 }
