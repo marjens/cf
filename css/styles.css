@@ -10,6 +10,7 @@
 }
 
 nav {
+  z-index: 1;
   position: fixed;
   width: 100% !important;
   top: 0;
@@ -47,6 +48,19 @@ nav a:hover {
 }
 
 /** INDEX **/
+
+.carouselExampleIndicators {
+  padding-top: 65px;
+}
+
+.container {
+  padding-top: 20px;
+}
+
+.row
+
+.col-sm
+
 
 .jumbotron {
   background-image: url("../img/landscape.jpg");
