@@ -2,6 +2,12 @@
 
 /** NAV **/
 
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  width: 80%;
+}
+
 .left {
   float: left;
 }
@@ -33,15 +39,14 @@ nav a:hover {
 /** CONTENT **/
 
 .container-content {
-  padding-top: 40px;
+  padding-top: 20px;
   margin: 0 auto;
   width: 90%;
 }
-
 .body {
-  background-image: url("../img/grass.jpeg");
+  background-image: url("../img/Grass-Blur.jpg");
   background-size: cover;
-  color: #f0f8c7;
+  color: #34495e;
   padding: 20px;
 }
 
@@ -51,57 +56,19 @@ nav a:hover {
   color: #214e10;
 }
 
-.column {
-  display: inline-block;
+.contact-box {
   float: left;
-  height: 80%;
-  width: 33.33333333333333%;
-  padding-right: 10px;
+  border-spacing: 10px;
+  background-color: #c29766;
+  padding: 0px 20px 20px 40px;
 }
 
-.image {
-  width: 25%;
+.contact-box p {
+  padding: 0px 10px 10px 0px;
 }
 
-.image img {
-  width: 75%;
-  top: 0;
-}
-
-.image h2 {
-  text-transform: uppercase;
-}
-
-.intro p {
-  font-family: Verdana, Helvetica, Arial, sans-serif;
-  font-size: 1em;
-  font-weight: 500;
-  webkit-margin-before: 1em
-}
-
-.intro h2 {
-  font-family: Verdana, Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-}
-
-.skill h2 {
-  text-align: center;
-  text-transform: uppercase;
-}
-
-#skill-list {
-  margin-left: 50px;
-}
-
-.main-text {
-  clear: both;
-  background-color: 272703;
-  font-family: Verdana, Helvetica, Arial, sans-serif;
-  padding-top: 20px;
-}
-
-.main-text h2 {
-  text-transform: uppercase;
+.connect {
+  padding-top: 10px
 }
 
 /*Typography*/
@@ -118,4 +85,3 @@ h3 {
 p {
   font-family: Verdana, Arial, sans-serif;
 }
- 
